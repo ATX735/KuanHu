@@ -1,0 +1,113 @@
+/*首页*/
+.Topstory-container {
+    width: var(--width-container) !important;
+}
+
+.Topstory-mainColumn {
+    width: var(--width-main-column) !important;
+}
+
+/*.Modal--fullPage{*/
+/*	width: var(--width-container);*/
+/*}*/
+
+
+/*问题页面*/
+.Question-main {
+    width: var(--width-container) !important;
+}
+
+.Question-mainColumn {
+    width: var(--width-main-column) !important;
+}
+
+/* .Question-sideColumn {} */
+
+.QuestionHeader-content {
+    width: var(--width-container) !important;
+    padding-left: calc((100vw - var(--width-container))/2) !important;
+}
+
+.QuestionHeader-main {
+    width: var(--width-main-column) !important;
+}
+
+.QuestionHeader-footer-inner {
+    width: var(--width-container) !important;
+}
+
+
+/*搜索结果页面*/
+.Search-container {
+    width: var(--width-container) !important;
+}
+
+.SearchMain {
+    width: var(--width-main-column) !important;
+}
+
+
+/*个人页面*/
+.Profile-main {
+    width: var(--width-container) !important;
+}
+
+.Profile-mainColumn {
+    width: var(--width-main-column) !important;
+}
+
+.ProfileHeader {
+    width: var(--width-container) !important;
+}
+
+/*个人收藏*/
+.CollectionsDetailPage-mainColumn {
+    width: var(--width-main-column) !important;
+}
+
+.CollectionsDetailPage {
+    width: var(--width-container) !important;
+}
+
+
+.QuestionWaiting {
+    width: var(--width-container) !important;
+}
+
+.QuestionWaiting-mainColumn {
+    width: var(--width-main-column) !important;
+}
+
+.Collections-container {
+    width: var(--width-container) !important;
+}
+
+.Collections-mainColumn {
+    width: var(--width-main-column) !important;
+}
+
+
+
+/*知乎专栏*/
+.Post-NormalMain .Post-Header {
+    width: var(--width-main-column) !important;
+}
+
+.Post-NormalMain>div,
+.Post-NormalSub>div {
+    width: var(--width-main-column) !important;
+}
+
+.Post-SideActions {
+    right: 5rem !important;
+}
+
+
+/*回答内容和文章内容*/
+.origin_image {
+    max-width: var(--max-width-content-img) !important;
+}
+
+.AuthorInfo {
+    max-width: var(--width-main-column) !important;
+}

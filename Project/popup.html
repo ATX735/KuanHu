@@ -1,0 +1,76 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+
+<head>
+    <style>
+        .setting-div {
+            margin: 1rem 1rem 1rem;
+        }
+
+        .setting-title {
+            font-weight: bold;
+            font-size: 0.9rem;
+            color: cornflowerblue;
+            margin: 0 0 5px;
+        }
+
+        .setting-value {
+            width: 2rem;
+            font-size: 0.9rem;
+            margin: 0 0 0 1rem;
+            text-align: center;
+        }
+
+        #footer {
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #eee;
+            padding: 5px 0 5px;
+            box-shadow: 0 0 5px 3px #eee;
+        }
+
+        #reset-btn {
+            margin: 0 1rem 0 0;
+            padding: 0.4rem 0.5rem;
+            border: 1px solid cornflowerblue;
+            border-radius: 0.5rem;
+            background-color: cornflowerblue;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+    <title>宽乎</title>
+</head>
+
+<body style="margin: 0;">
+    <div class="setting-div">
+        <div class="setting-title">知乎内容宽度：</div>
+        <div style="display: flex;">
+            <input type="range" id="maincolumn-range" min="40" max="200" step="1" style="width: 25rem;">
+            <span class="setting-value" id="maincolumn-width-span"></span>
+        </div>
+    </div>
+    <div class="setting-div">
+        <div class="setting-title">文章内容图片最大宽度：</div>
+        <div style="display: flex;">
+            <input type="range" id="img-range" min="10" max="100" step="1" style="width: 25rem;">
+            <span class="setting-value" id="img-max-width-span"></span>
+        </div>
+    </div>
+    <div id="footer">
+        <div style="display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+        margin: 0 0 0 1rem;">©</div>
+        <button id="reset-btn">恢复插件默认值</button>
+    </div>
+
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
