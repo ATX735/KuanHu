@@ -1,7 +1,7 @@
 # 宽乎
-“宽乎”浏览器插件目前已上架Edge扩展商店，欢迎访问[宽乎 - Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/宽乎/hmindbfdihniclppncnibofigclijheb)获取（白嫖）本插件
+“宽乎”浏览器插件目前已上架Edge扩展商店，可访问[宽乎 - Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/宽乎/hmindbfdihniclppncnibofigclijheb)获取（白嫖）本插件。
 
-另外，也欢迎在Issue中提出建议与改进~
+欢迎在本仓库的Issue中提出建议与改进~
 
 ## 简介
 
@@ -12,3 +12,5 @@
 ![image-20230424110124899](https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304241101938.png)
 
 ![image-20230424105650466](https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304241056676.png)
+
+![image-20230424113127759](https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304241131960.png)
