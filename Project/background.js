@@ -69,20 +69,13 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             break;
         // 恢复默认按钮被点击时
         case "popup js-reset":
-            //对所有知乎网页的tab进行操作
-            chrome.tabs.query({ url: "*://*.zhihu.com/*" }, function (tabs) {
-                for (let tab of tabs) {  // tabs是一个数组，包含所有符合条件的tab对象
-                    chrome.scripting.insertCSS({
-                        target: {
-                            tabId: tab.id,
-                        },
-                        css: getVariableCSS(default_style),
-                    });
-                }
-            })
+            current_style.maincolumn_width = default_style.maincolumn_width
+            current_style.img_max_width = default_style.img_max_width
+            updateAllTabsToCurrentStyle()
             chrome.storage.local.set({ 'current_maincolumn_width': default_style.maincolumn_width })
             chrome.storage.local.set({ 'current_img_max_width': default_style.img_max_width })
             sendResponse(default_style)
+            break;
     }
 })
 
@@ -100,10 +93,10 @@ function updateAllTabsToCurrentStyle() {
     })
 }
 
-function getVariableCSS(current_style_obj) {
+function getVariableCSS(style_obj) {
     return `:root {
         /* 主栏的宽度 */
-        --width-main-column: ${current_style_obj.maincolumn_width}rem;
+        --width-main-column: ${style_obj.maincolumn_width}rem;
         /* 侧栏的宽度 */
         --width-side-column: 17rem;
         /* 主栏与侧栏直接的间距 */
@@ -111,7 +104,7 @@ function getVariableCSS(current_style_obj) {
         /* 整个主内容容器的宽度 */
         --width-container: calc(var(--width-main-column) + var(--width-side-column) + var(--gap));
         /* 文章内容图片的最大宽度 */
-        --max-width-content-img: ${current_style_obj.img_max_width}%;
+        --max-width-content-img: ${style_obj.img_max_width}%;
     }`
 }
 
