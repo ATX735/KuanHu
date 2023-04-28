@@ -3,6 +3,8 @@
 <p align="center"><a href="https://microsoftedge.microsoft.com/addons/detail/宽乎/hmindbfdihniclppncnibofigclijheb" target="_blank" rel="noreferrer noopener"><img width="200" src="https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304281450095.png"></a></p>
 <p align="center">宽乎，顾名思义，把知乎变宽~</p>
 
+------
+
 “宽乎”浏览器插件目前已上架Edge扩展商店，可访问[宽乎 - Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/宽乎/hmindbfdihniclppncnibofigclijheb)获取（白嫖）本插件。
 
 欢迎在本仓库的Issue中提出建议与改进~
