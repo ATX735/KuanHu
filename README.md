@@ -1,6 +1,7 @@
-<img src="https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304281450095.png" alt="logo3" style="zoom:80%;" />
 
-<p align="center">宽乎，顾名思义，把知乎变宽</p>
+
+<p align="center"><a href="https://microsoftedge.microsoft.com/addons/detail/宽乎/hmindbfdihniclppncnibofigclijheb" target="_blank" rel="noreferrer noopener"><img width="200" src="https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304281450095.png"></a></p>
+<p align="center">宽乎，顾名思义，把知乎变宽~</p>
 
 “宽乎”浏览器插件目前已上架Edge扩展商店，可访问[宽乎 - Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/宽乎/hmindbfdihniclppncnibofigclijheb)获取（白嫖）本插件。
 
@@ -14,7 +15,7 @@
 
 如需自定义调节宽度，可以点击插件图标，拖动页面中的滑块改数值，从而改变知乎页面的样式。
 
-![image-20230424110124899](https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304241101938.png)
+<img src="https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304241101938.png" alt="image-20230424110124899" style="zoom: 80%;" />
 
 ![image-20230424105650466](https://raw.githubusercontent.com/ATX735/ATX735.github.io/main/IMG_Storage/202304241056676.png)
 
