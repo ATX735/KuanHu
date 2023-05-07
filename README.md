@@ -7,7 +7,7 @@
 
 “宽乎”浏览器插件目前已上架Edge扩展商店，可访问[宽乎 - Microsoft Edge Extension](https://microsoftedge.microsoft.com/addons/detail/宽乎/hmindbfdihniclppncnibofigclijheb)获取（白嫖）本插件。
 
-欢迎在本仓库的Issue中提出建议与改进~
+欢迎在本仓库的Issue中提出改进建议或提出PR~
 
 ## 简介
 
