@@ -47,7 +47,7 @@
 }
 
 
-/*个人页面*/
+/*个人信息页面*/
 .Profile-main {
     width: var(--width-container) !important;
 }
@@ -60,7 +60,7 @@
     width: var(--width-container) !important;
 }
 
-/*个人收藏*/
+/*个人收藏页面*/
 .CollectionsDetailPage-mainColumn {
     width: var(--width-main-column) !important;
 }
@@ -88,7 +88,7 @@
 
 
 
-/*知乎专栏*/
+/*知乎专栏页面*/
 .Post-NormalMain .Post-Header {
     width: var(--width-main-column) !important;
 }
@@ -118,8 +118,8 @@
 } */
 
 
-/* 未登录的知乎文章页面，往往会在搜索引擎结果中打开这种页面 */
-/* Example：https://www.zhihu.com/tardis/zm/ans/2890071661 */
+/* 未登录的知乎答案页面 */
+/* 往往会在搜索引擎结果中打开这种页面，Example：https://www.zhihu.com/tardis/zm/ans/2890071661 */
 .sgui-radius-flex {
     max-width: var(--width-main-column) !important;
 }
