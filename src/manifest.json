@@ -1,8 +1,8 @@
 {
     "name": "宽乎",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "manifest_version": 3,
-    "description": "加宽知乎各个页面的内容区域，优化浏览体验。",
+    "description": "加宽知乎各页面的内容区域，优化浏览体验。",
     "icons": {
         "16": "icons/logo.png",
         "48": "icons/logo.png",

@@ -7,15 +7,11 @@
     width: var(--width-main-column) !important;
 }
 
-/*.Modal--fullPage{*/
-/*	width: var(--width-container);*/
-/*}*/
-
 
 /*问题页面*/
-.Question-main {
+/* .Question-main {  // 存在冲突的CSS
     width: var(--width-container) !important;
-}
+} */
 
 .Question-mainColumn {
     width: var(--width-main-column) !important;
@@ -113,5 +109,21 @@
 }
 
 .AuthorInfo {
+    max-width: var(--width-main-column) !important;
+}
+
+/* 文章编辑页面 */
+/* .css-sdgtgb {
+    width: var(--width-main-column) !important;
+} */
+
+
+/* 未登录的知乎文章页面，往往会在搜索引擎结果中打开这种页面 */
+/* Example：https://www.zhihu.com/tardis/zm/ans/2890071661 */
+.sgui-radius-flex {
+    max-width: var(--width-main-column) !important;
+}
+
+.Container {
     max-width: var(--width-main-column) !important;
 }

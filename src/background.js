@@ -38,17 +38,35 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     switch (message.type) {
         // 打开/刷新页面时
         case "content js-initial_css_injection":
-            chrome.scripting.insertCSS({  //注入含有变量的css
+            //注入含有变量的css
+            chrome.scripting.insertCSS({
                 target: {
                     tabId: sender.tab.id,
                 },
                 css: getVariableCSS(current_style)
             });
-            chrome.scripting.insertCSS({  //注入固定css
+            //注入固定css
+            chrome.scripting.insertCSS({
                 target: {
                     tabId: sender.tab.id,
                 },
                 files: ["new-zhihu-style.css"]
+            });
+            //处理存在冲突的css
+            let reg = /zhihu.com\/tardis\/*/  //匹配知乎的zhihu.com/tardis/*页面
+            let confilct_css = `.Question-main {
+                width: var(--width-container) !important;
+            }`
+            if (reg.test(sender.tab.url)) {
+                confilct_css = `.Question-main {
+                    width: var(--width-main-column) !important;
+                }`
+            }
+            chrome.scripting.insertCSS({
+                target: {
+                    tabId: sender.tab.id,
+                },
+                css: confilct_css
             });
             break;
         // popup页面被打开时
