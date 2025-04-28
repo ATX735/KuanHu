@@ -102,6 +102,18 @@
     right: 5rem !important;
 }
 
+.Post-Row-Content .Post-Row-Content-right {
+    display: none;
+}
+
+.css-1qyytj7 {
+    display: none;
+}
+
+.Post-Row-Content .Post-Row-Content-left {
+    width: auto !important;
+}
+
 
 /*回答内容和文章内容*/
 .origin_image {
