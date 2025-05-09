@@ -89,6 +89,17 @@
 
 
 /*知乎专栏页面*/
+.Post-Row-Content {
+    display: flex !important;
+    justify-content: center !important; /* 水平居中 */
+    align-items: center !important;      /* 垂直居中（可选） */
+}
+
+.Post-Row-Content-left {
+    padding-right: 30px !important;
+    box-sizing: border-box !important;
+    float: none !important; /* 移除浮动 */
+}
 .Post-NormalMain .Post-Header {
     width: var(--width-main-column) !important;
 }
@@ -107,6 +118,10 @@
 }
 
 .css-1qyytj7 {
+    display: none;
+}
+
+.Card-AuthorCard {
     display: none;
 }
 
@@ -139,3 +154,6 @@
 .Container {
     max-width: var(--width-main-column) !important;
 }
+
+
+
